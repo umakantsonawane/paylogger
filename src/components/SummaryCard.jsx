@@ -1,3 +1,5 @@
+import "../styles/summaryCard.css";
+
 function SummaryCard({ title, amount }) {
   return (
     <div className="summary-card">

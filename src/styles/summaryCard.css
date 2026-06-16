@@ -1,0 +1,28 @@
+.summary-container{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+}
+
+.summary-card{
+
+    background:white;
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.summary-card h3{
+
+    color:gray;
+    margin-bottom:15px;
+}
+
+.summary-card h2{
+
+    font-size:32px;
+}

@@ -1,13 +1,15 @@
+import "../styles/navbar.css";
+
 function Navbar() {
   return (
     <nav className="navbar">
       <h2>💰 PayLogger</h2>
 
-      <ul>
-        <li>Dashboard</li>
-        <li>Transactions</li>
-        <li>Reports</li>
-      </ul>
+      <div className="nav-links">
+        <span>Dashboard</span>
+        <span>Transactions</span>
+        <span>Reports</span>
+      </div>
     </nav>
   );
 }
